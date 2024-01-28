@@ -1,0 +1,36 @@
+{
+  "name": "@magitools/magiutils",
+  "version": "0.0.1",
+  "description": "an utility cli for magitools packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "bin": {
+    "magiutils": "dist/magiutils.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magitools/magiutils.git"
+  },
+  "author": "Matteo Gassend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magitools/magiutils/issues"
+  },
+  "homepage": "https://github.com/magitools/magiutils#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^11.1.0",
+    "kleur": "^4.1.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.11.9",
+    "rollup": "^4.9.6",
+    "rollup-plugin-ts": "^3.4.5",
+    "typescript": "^5.3.3"
+  }
+}
