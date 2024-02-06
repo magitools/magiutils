@@ -23,6 +23,6 @@ jobs:
       - name: Build Package
         run: pnpm build
       - name: Publish Package
-        run: pnpm publish --dry-run --no-git-checks
+        run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
