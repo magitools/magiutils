@@ -16,3 +16,4 @@ Simply type `npx @magitools/magiutils`
 By default, running it with no arguments will launch an interactive prompt. To avoid that, you can also pass the following arguments:
 
 - **-s**: generate a valid secret for magiedit (and others going forward)
+- **-r**: start sequence to generate a release name

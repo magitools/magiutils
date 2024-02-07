@@ -1,4 +1,5 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve';
+import json from '@rollup/plugin-json';
 import commonjs from '@rollup/plugin-commonjs';
 import ts from "rollup-plugin-ts"
 
@@ -8,5 +9,5 @@ export default {
         file: "dist/magiutils.mjs",
         format: "es"
     },
-    plugins: [nodeResolve(), commonjs(), ts()]
+    plugins: [nodeResolve(), commonjs(), json(), ts()]
 }
